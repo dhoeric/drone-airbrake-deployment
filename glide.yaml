@@ -1,0 +1,8 @@
+package: github.com/dhoeric/drone-airbrake-deployment
+import:
+- package: github.com/joho/godotenv
+  version: ~1.2.0
+  subpackages:
+  - autoload
+- package: github.com/urfave/cli
+  version: ~1.20.0
